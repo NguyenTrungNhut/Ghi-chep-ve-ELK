@@ -6,7 +6,7 @@ Các Elastic mặc định tự móc nối với nhau tạo thành 1 cluster, đ
 
 => Cấu hình lại như sau
 
-- Đối với Elasticsearch
+- **Đối với Elasticsearch**
 
 `vi /etc/elasticsearch/elasticsearch.yml`
 
@@ -15,9 +15,9 @@ cluster.name: VDC-IT-Cluster #Tên cluster
 node.name: "Elasticsearch_1"   #Tên node trong cluster
 ```
 
-`service elasticsearch restart"
+`service elasticsearch restart`
 
-- Đối với Logstash
+- **Đối với Logstash**
 
 ```sh
 output {
